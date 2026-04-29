@@ -1,0 +1,71 @@
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Node / Backend (if Node)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.env
+dist/
+build/
+
+# =========================
+# Python (agent)
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# =========================
+# Java (Spring Boot)
+# =========================
+target/
+*.jar
+*.war
+*.class
+application-local.properties
+
+# =========================
+# Frontend (React/Vite/Next)
+# =========================
+.next/
+out/
+dist/
+node_modules/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Docker
+# =========================
+docker-data/
+*.pid
+
+# =========================
+# Monitoring stack (IMPORTANT)
+# =========================
+grafana-data/
+prometheus-data/
+loki-data/
+
+# =========================
+# Secrets (VERY IMPORTANT)
+# =========================
+.env
+.env.*
+*.key
+*.pem
+credentials.json
